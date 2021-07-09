@@ -129,6 +129,8 @@ py_src = $(addprefix python/src/py/,\
 
 extmod_src += $(addprefix python/src/extmod/,\
   modurandom.c \
+  crypto-algorithms/sha256.c \
+  moduhashlib.c \
 )
 
 port_src += $(addprefix python/port/,\

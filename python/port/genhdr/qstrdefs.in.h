@@ -547,3 +547,7 @@ Q(username)
 Q(rename)
 Q(listdir)
 
+// uhashlib QSTRs
+Q(uhashlib)
+Q(digest)
+Q(sha256)

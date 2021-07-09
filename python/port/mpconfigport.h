@@ -102,6 +102,9 @@
 // Whether to provide the "urandom" module
 #define MICROPY_PY_URANDOM (1)
 
+// Whether to provide the "uhashlib" module
+#define MICROPY_PY_UHASHLIB (1)
+
 // Whether to include: randrange, randint, choice, random, uniform
 #define MICROPY_PY_URANDOM_EXTRA_FUNCS (1)
 
