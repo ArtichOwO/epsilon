@@ -78,8 +78,6 @@ STATIC mp_obj_t uhashlib_sha256_digest(mp_obj_t self_in) {
     return mp_obj_new_str_from_vstr(&mp_type_bytes, &vstr);
 }
 
-STATIC mp_obj_t uhashlib_sha256_update(mp_obj_t self_in, mp_obj_t arg);
-
 STATIC MP_DEFINE_CONST_FUN_OBJ_2(uhashlib_sha256_update_obj, uhashlib_sha256_update);
 STATIC MP_DEFINE_CONST_FUN_OBJ_1(uhashlib_sha256_digest_obj, uhashlib_sha256_digest);
 
