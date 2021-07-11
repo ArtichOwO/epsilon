@@ -223,6 +223,15 @@ const ToolboxMessageTree OsModuleChildren[] = {
   ToolboxMessageTree::Leaf(I18n::Message::PythonOsCommandListdir, I18n::Message::PythonOsListdir, false)
 };
 
+const ToolboxMessageTree HashlibModuleChildren[] = {
+  ToolboxMessageTree::Leaf(I18n::Message::PythonCommandImportHashlib, I18n::Message::PythonImportHashlib, false),
+  ToolboxMessageTree::Leaf(I18n::Message::PythonCommandImportFromHashlib, I18n::Message::PythonImportHashlib, false),
+  ToolboxMessageTree::Leaf(I18n::Message::PythonCommandHashlibFunction, I18n::Message::PythonHashlibFunction, false, I18n::Message::PythonCommandHashlibFunctionWithoutArg),
+  ToolboxMessageTree::Leaf(I18n::Message::PythonCommandHashlibSha256, I18n::Message::PythonHashlibSha256, false, I18n::Message::PythonCommandHashlibSha256WithoutArg),
+  ToolboxMessageTree::Leaf(I18n::Message::PythonCommandHashlibDigest, I18n::Message::PythonHashlibDigest, false, I18n::Message::PythonCommandHashlibDigestWithoutArg),
+  ToolboxMessageTree::Leaf(I18n::Message::PythonCommandHashlibUpdate, I18n::Message::PythonHashlibUpdate, false, I18n::Message::PythonCommandHashlibUpdateWithoutArg)
+};
+
 const ToolboxMessageTree modulesChildren[] = {
   ToolboxMessageTree::Node(I18n::Message::MathModule, MathModuleChildren),
   ToolboxMessageTree::Node(I18n::Message::CmathModule, CMathModuleChildren),
@@ -232,7 +241,8 @@ const ToolboxMessageTree modulesChildren[] = {
   ToolboxMessageTree::Node(I18n::Message::KandinskyModule, KandinskyModuleChildren),
   ToolboxMessageTree::Node(I18n::Message::IonModule, IonModuleChildren),
   ToolboxMessageTree::Node(I18n::Message::OsModule, OsModuleChildren),
-  ToolboxMessageTree::Node(I18n::Message::TimeModule, TimeModuleChildren)
+  ToolboxMessageTree::Node(I18n::Message::TimeModule, TimeModuleChildren),
+  ToolboxMessageTree::Node(I18n::Message::HashlibModule, HashlibModuleChildren)
 };
 
 const ToolboxMessageTree catalogChildren[] = {
