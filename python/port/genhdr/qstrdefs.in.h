@@ -547,3 +547,9 @@ Q(username)
 Q(rename)
 Q(listdir)
 
+// ubinascii QSTRs
+Q(ubinascii)
+Q(hexlify)
+Q(unhexlify)
+Q(a2b_base64)
+Q(b2a_base64)
